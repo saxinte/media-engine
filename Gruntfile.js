@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function(grunt) {
 
-	// load all grunt tasks
+	// load all Grunt tasks
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 	
 	// grunt cfg 
